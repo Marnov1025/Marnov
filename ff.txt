@@ -1,0 +1,38 @@
+for (var h = 0; h < height; h++)
+{
+    for (var w = 0; w < width; w++)
+    {
+        if (h is 0 or (height - 1))
+            switch (h)
+            {
+                case 0 when w is 0:
+                    Console.Write("#");
+                    break;
+                case 0 when w is 49:
+                    Console.Write("#");
+                    break;
+                default:
+                {
+                    switch (w)
+                    {
+                        case 49 when h is 25:
+                            Console.Write("#");
+                            break;
+                        case 0 when h is 25:
+                            Console.Write("#");
+                            break;
+                        default:
+                            Console.Write("=");
+                            break;
+                    }
+
+                    break;
+                }
+            }
+        
+        else if (w is 0 or (width - 1)) Console.Write("|");
+        else Console.Write(" ");
+    }
+    
+    Console.Write("\n");
+}

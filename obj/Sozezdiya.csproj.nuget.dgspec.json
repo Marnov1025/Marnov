@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/userpc/RiderProjects/Sozezdiya/Sozezdiya.csproj": {}
+  },
+  "projects": {
+    "/home/userpc/RiderProjects/Sozezdiya/Sozezdiya.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/userpc/RiderProjects/Sozezdiya/Sozezdiya.csproj",
+        "projectName": "Sozezdiya",
+        "projectPath": "/home/userpc/RiderProjects/Sozezdiya/Sozezdiya.csproj",
+        "packagesPath": "/home/userpc/.nuget/packages/",
+        "outputPath": "/home/userpc/RiderProjects/Sozezdiya/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/userpc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

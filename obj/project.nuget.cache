@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2dBt4OrFV8+k8xAsCZTn/2fFlBe/4CC4aXzqcaeBxfDXGJMhG2vDr/gjVRbIyVw9k+Cov8+iyNMoLn1rMtAEBQ==",
+  "success": true,
+  "projectFilePath": "/home/userpc/RiderProjects/Sozezdiya/Sozezdiya.csproj",
+  "expectedPackageFiles": [
+    "/home/userpc/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/home/userpc/.nuget/packages/npgsql/7.0.1/npgsql.7.0.1.nupkg.sha512",
+    "/home/userpc/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
